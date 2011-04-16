@@ -1,0 +1,14 @@
+s program converts between 10 and 13-digit ISBN (EAN).
+ISBN is the number tracking system for books. The old standard was 10-digit ISBN,
+whereas the new standard is an EAN based 13-digit system.
+
+The program takes input from the command line, seperated by spaces.
+Example:
+isbn 0132404168 9780132404167
+
+Yields the following output:
+9780132404167
+0132404168
+
+To provide input from a file, pipe through xargs:
+cat somefile | xargs isbn
