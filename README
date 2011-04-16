@@ -1,4 +1,4 @@
-s program converts between 10 and 13-digit ISBN (EAN).
+This program converts between 10 and 13-digit ISBN (EAN).
 ISBN is the number tracking system for books. The old standard was 10-digit ISBN,
 whereas the new standard is an EAN based 13-digit system.
 
